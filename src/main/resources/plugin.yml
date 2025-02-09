@@ -1,0 +1,11 @@
+name: FilterEnderChest
+version: '${version}'
+main: ru.luckstudio.FilterEnderChest
+api-version: '1.16'
+commands:
+  filterenderchest:
+    description: reload config plugin
+    usage: /filterenderchest reload
+    permission: filench.admin
+    aliases:
+      - filench
