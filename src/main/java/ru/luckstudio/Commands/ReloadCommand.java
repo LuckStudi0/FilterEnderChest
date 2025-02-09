@@ -19,7 +19,7 @@ public class ReloadCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
         if (commandSender.hasPermission("filench.admin")) {
-            ConfigurationSection mess = plugin.getConfig().getConfigurationSection("messages");
+            ConfigurationSection mess = this.plugin.getConfig().getConfigurationSection("messages");
             if (mess == null) {
                 commandSender.sendMessage("Значения в конфиге не обнаружены, удалите папку FilterEnderChest!");
                 return true;

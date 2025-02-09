@@ -19,6 +19,7 @@ public final class FilterEnderChest extends JavaPlugin {
         message();
 
     }
+
     private void message() {
         getLogger().info("███████╗██╗██╗░░░░░███████╗███╗░░██╗░█████╗░██╗░░██╗");
         getLogger().info("██╔════╝██║██║░░░░░██╔════╝████╗░██║██╔══██╗██║░░██║");
@@ -28,4 +29,5 @@ public final class FilterEnderChest extends JavaPlugin {
         getLogger().info("╚═╝░░░░░╚═╝╚══════╝╚══════╝╚═╝░░╚══╝░╚════╝░╚═╝░░╚═╝");
         getLogger().info("By LuckStudio (:");
     }
+
 }
